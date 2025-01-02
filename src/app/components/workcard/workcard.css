@@ -1,0 +1,26 @@
+.workcard-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.workcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.workcard-title{
+    font-weight: bold;
+    width: 90%;
+    max-width: 600px;
+}
+
+.workcard-description {
+    white-space: pre-line;
+    width: 90%;
+    max-width: 600px;
+}

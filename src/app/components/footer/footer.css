@@ -1,0 +1,30 @@
+.footer{
+    height: 10vh;
+    min-height: 100px;
+    width: 100vw;
+    background-color: var(--celeste-black);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--celeste-white);
+}
+
+.social-button-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-button{
+    background-color: var(--celeste-white);
+    color: var(--celeste-black);
+    padding: 5px;
+    margin: 3px;
+    border-radius: 50%; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.social-button:hover{
+    background-color: var( --celeste-grayed-white);
+}

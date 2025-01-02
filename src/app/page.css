@@ -1,0 +1,96 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    padding-top: 3vh;
+    min-height: 700px;
+  }
+
+.home-title{
+    font-size:7rem;
+    width: 100vw;
+}
+
+.home-and{
+  padding-left: 10px;
+  font-size:2rem;
+}
+
+.home-buttons{
+  width: 350px;
+}
+
+.center{
+  text-align: center;
+}
+
+.top{
+  position: absolute; /* Positions the bottom div within the container */
+  top: 150px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom{
+  position: absolute; /* Positions the bottom div within the container */
+  top: 250px;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+.top-block{
+  width: 20vw;
+}
+
+
+.bottom-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+
+.bottom-block{
+  width: 10vw;
+}
+
+.title-container{
+  position: relative; /* Makes the container the reference point for absolute positioning */
+  width: 100vw;
+  height: 500px;
+}
+
+
+@media (max-width: 1400px) {
+  .top-title{
+    font-size: 4rem;
+}
+  
+  .bottom-title{
+    font-size: 4rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .top-title{
+    font-size: 2rem;
+}
+  
+  .bottom-title{
+    font-size: 2rem;
+  }
+  
+}
+

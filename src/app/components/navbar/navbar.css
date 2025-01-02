@@ -1,0 +1,60 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    min-height: 100px;
+    width: 100vw;
+    background-color: var(--celeste-green);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--celeste-white);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+    z-index: 9999; /* High value to ensure it's always on top */
+}
+
+.navbar-placeholder{
+    height: 10vh;
+    min-height: 100px;
+    width: 100vw;
+}
+.title{
+    padding-left: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.menu{
+    padding-right: 30px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-items{
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid transparent; 
+    transition: border-color 0.3s ease-in-out; 
+    transition-duration: 0.2s;
+    margin-right: 5px;
+}
+
+.menu-items:hover{
+    border-bottom: 1px solid var(--celeste-white); 
+}
+
+.active-menu-items{
+    border-bottom: 1px solid var(--celeste-white); 
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: border-color 0.3s ease-in-out; 
+    transition-duration: 0.2s;
+    margin-right: 5px;
+}

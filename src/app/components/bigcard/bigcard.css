@@ -1,0 +1,36 @@
+.bigcard-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+.bigcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;;
+}
+
+.bigcard-title{
+    font-weight: bold;
+    width: 100%;
+    max-width: 600px;
+}
+
+.bigcard-description{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .bigcard-container{
+      flex-direction: column;
+    }
+
+    .big-container > p {
+        min-width: 300px;
+    }
+}  
