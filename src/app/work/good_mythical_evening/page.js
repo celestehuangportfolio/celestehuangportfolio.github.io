@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <div className="selected-work">
       <div className="selected-work-header">
-        <div className="selected-work-title">@Good Mythical Evening</div>
+        <div className="selected-work-title">GOOD MYTHICAL EVENING</div>
         <div className="selected-work-description">
           Rhett & Link present Good Mythical Evening, the R-rated spin-off of
           Good Mythical Morning, an annual paid one-night-only livestreamed

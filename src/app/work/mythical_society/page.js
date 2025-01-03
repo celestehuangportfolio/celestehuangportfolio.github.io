@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div className="selected-work">
       <div className="selected-work-header">
-        <div className="selected-work-title">@Mythical Society</div>
+        <div className="selected-work-title">MYTHICAL SOCIETY</div>
         <div className="selected-work-description">
           The Mythical Society, a Memberful paid membership program, is for the
           hardcore fandom/community of Rhett & Link to gain access to

@@ -15,7 +15,9 @@ export default function Navbar() {
     <>
       <div className="navbar">
         <div className="title">
-          <Link href={"/"}>Celeste Huang</Link>
+          <Link href={"/"}>
+            <img src={"/logo.png"} style={{ height: "55px" }}></img>
+          </Link>
         </div>
         <div className="menu">
           <Link

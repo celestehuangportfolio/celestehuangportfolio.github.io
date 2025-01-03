@@ -31,6 +31,9 @@ export default function Page() {
       </div>
       <div className="curved-edge"></div>
       <div className="carosel-container">
+        <br />
+        <EmblaCarousel slides={SLIDES_1} options={OPTIONS} />
+        <br />
         <div className="carosel-title">01 - Memes, Trends, and Pop Culture</div>
         <br></br>
         <div className="carosel-description">
@@ -41,12 +44,10 @@ export default function Page() {
         <br />
         <br />
       </div>
-      <EmblaCarousel slides={SLIDES_1} options={OPTIONS} />
-      <br></br>
-      <br />
-      <br />
-
       <div className="carosel-container">
+        <br />
+        <EmblaCarousel slides={SLIDES_2} options={OPTIONS} />
+        <br />
         <div className="carosel-title">
           02 - Asian Bachelorette Social Campaigns
         </div>
@@ -59,11 +60,16 @@ export default function Page() {
         <br />
         <br />
       </div>
-      <EmblaCarousel slides={SLIDES_2} options={OPTIONS} />
-      <br></br>
-      <br />
-      <br />
       <div className="carosel-container">
+        <img
+          style={{
+            width: windowwidth > 650 ? "600px" : "350px",
+            objectFit: "contain",
+          }}
+          src="/wongfu/dating.jpg"
+        ></img>
+
+        <br />
         <div className="carosel-title">
           03 - Dating After College Wardrobe & Social Assistant
         </div>
@@ -73,15 +79,6 @@ export default function Page() {
           Assistant on set. Traveled to off-site locations. Communicated with
           production team and talents.
         </div>
-        <br />
-        <img
-          style={{
-            width: windowwidth > 650 ? "600px" : "350px",
-            objectFit: "contain",
-          }}
-          src="/wongfu/dating.jpg"
-        ></img>
-        <br />
         <br />
       </div>
     </div>

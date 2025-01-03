@@ -24,7 +24,7 @@ export default function Page() {
         </div>
       </div>
       <div className="curved-edge"></div>
-      <div className="flex-row switch-col space-evenly">
+      <div className="flex-row switch-col">
         <div className="flex-column">
           <div className="selected-work-grid-item selected-work-left">
             <WorkCard

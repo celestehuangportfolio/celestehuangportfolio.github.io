@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div className="selected-work">
       <div className="selected-work-header">
-        <div className="selected-work-title">@The Mythical Cookbook</div>
+        <div className="selected-work-title">THE MYTHICAL COOKBOOK</div>
         <div className="selected-work-description">
           From the larger-than-life team behind the internet’s most-watched
           daily show, Good Mythical Morning, and culinary spinoff, Mythical
@@ -23,8 +23,8 @@ export default function Page() {
         <BigCard
           element={
             <img
-              style={{ height: "400px", width: "auto", objectFit: "contain" }}
-              src="/mythicalcookbook/01-social.png"
+              style={{ height: "fit-content", width: "auto" }}
+              src="/mythicalcookbook/01-social-6.png"
             ></img>
           }
           title={"01 - Social Campaigns"}

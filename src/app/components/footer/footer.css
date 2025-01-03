@@ -1,6 +1,6 @@
 .footer{
-    height: 10vh;
-    min-height: 100px;
+    height: 8vh;
+    min-height: 50px;
     width: 100vw;
     background-color: var(--celeste-black);
     display: flex;

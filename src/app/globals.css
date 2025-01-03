@@ -1,13 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: varigata;
+  src: url("/varigata.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: gotham;
+  src: url("/gotham.otf") format("opentype");
+}
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 
 
 :root {
-  --celeste-green: #818B7E;
+  /* --celeste-green: #BBC4BF; */
+  --celeste-green: #9daaa0;
   --celeste-white: #F5F5F5;
-  --celeste-black: #121212;
+  --celeste-black: #262626;
   --celeste-beige: #EAE6E1;
   --celeste-grayed-white: #C8C8C8;
 }
@@ -17,9 +27,9 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: var(--celeste-beige);
-  font-family:  "Libre Baskerville", serif;
   caret-color: transparent;
   overflow-x: hidden;
+  font-family: "gotham";
 }
 
 * {
@@ -28,18 +38,19 @@ body {
 }
 
 button {
-  background-color: var(--celeste-beige);
+  background-color: var(--celeste-green);
   border-radius: 20px;
   width: fit-content;
   border-style: solid;
   border-color: var(--celeste-green);
   border-width: 2px; /* Add this line to specify the border width */
-  color: var(--celeste-green);
-  padding: 10px 20px;
+  color: var(--celeste-white);
+  font-weight: bold;
+  padding: 2px 10px;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 20px;
+  font-size: 22px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -47,8 +58,8 @@ button {
 }
 
 button:hover {
-  background-color: var(--celeste-green);
-  color: var(--celeste-white);
+  background-color: var(--celeste-beige);
+  color: var(--celeste-green);
 }
 
 .carosel-container{
@@ -77,22 +88,26 @@ button:hover {
 }
 
 .carosel-description{
-  width: 80vw;
+  width: 30vw;
+  min-width: 350px;
 }
 
 .selected-work-header{
   padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: row;
   background-color: var(--celeste-green);
 }
 
 .selected-work-title{
   width: 40vw;
-  font-size: 3rem;
-  color: var(--celeste-white)
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--celeste-white);
+  line-height: 53px;
+  height: 53px;
 }
 
 .selected-work-description{
@@ -102,9 +117,7 @@ button:hover {
 }
 
 .curved-edge{
-  height: 150px;
-  background: var(--celeste-green);
-  clip-path: ellipse(80% 50% at 30% 0)
+  height: 30px;
 }
 
 .selected-work-grid {
@@ -147,8 +160,19 @@ button:hover {
   max-width: 1200px;
 }
 
+@media (max-width: 1400px) {
+  .selected-work-title{
+    font-size: 2.5rem;
+  }
+}
+
 /* Tablet and mobile styles */
 @media (max-width: 1000px) {
+
+  .selected-work-title{
+    font-size: 2rem;
+  }
+
   .switch-row{
     flex-direction: row;
   }

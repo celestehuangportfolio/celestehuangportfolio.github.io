@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div className="selected-work">
       <div className="selected-work-header">
-        <div className="selected-work-title">@Last Meals</div>
+        <div className="selected-work-title">LAST MEALS</div>
         <div className="selected-work-description">
           Last Meals is a Mythical Kitchen series where Mythical Chef Josh
           Scherer cooks and interviews celebrities about their ideal last meal

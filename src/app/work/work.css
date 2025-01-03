@@ -19,6 +19,7 @@
     cursor: pointer;
     width: 100%; /* Ensure the image fills the full width of its container */
     height: 100%; /* Ensure the image fills the full height of its container */
+    text-align: center;
   }
   
   .grid-item > img {

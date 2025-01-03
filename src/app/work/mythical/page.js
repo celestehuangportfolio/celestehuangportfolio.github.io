@@ -15,7 +15,7 @@ export default function Page() {
   return (
     <div className="selected-work">
       <div className="selected-work-header">
-        <div className="selected-work-title">@Mythical</div>
+        <div className="selected-work-title">@mythical</div>
         <div className="selected-work-description">
           Mythical is an internet-first entertainment studio founded by Rhett &
           Link. The company’s owned & operated YouTube channels have amassed 75
@@ -30,7 +30,11 @@ export default function Page() {
         </div>
       </div>
       <div className="curved-edge"></div>
+
       <div className="carosel-container">
+        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+        <br />
+        <br />
         <div className="carosel-title">01 - Memes, Trends, and Pop Culture</div>
         <br></br>
         <div className="carosel-description">
@@ -40,9 +44,8 @@ export default function Page() {
           brand voice to copy/captions.
         </div>
         <br />
-        <br />
       </div>
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+
       <br></br>
       <br />
       <br />

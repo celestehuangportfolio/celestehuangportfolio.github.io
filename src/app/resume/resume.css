@@ -5,7 +5,7 @@
     gap:20px;
     color: var(--celeste-white);
     background-color: var(--celeste-black);
-    height: 90vh;
+    min-height: 82vh;
 }
 
 .resume-title{

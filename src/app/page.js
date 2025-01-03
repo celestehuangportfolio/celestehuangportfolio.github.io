@@ -9,19 +9,20 @@ export default function Page() {
 
   return (
     <div className="home">
-      <div>Hi, my name is Celeste Huang.</div>
+      <div className="home-celeste">Hi, my name is Celeste Huang.</div>
       <div className="home-title">
         {windoWidth > 1400 ? (
           <div className="title-container">
             <div className="top">
               <div className="top-title">
-                Social Media Strategist
+                Social Media Strategist{" "}
                 <div>
                   <span className="home-and">&</span>
                 </div>
               </div>
               <div className="top-block"></div>
             </div>
+
             <div className="bottom">
               <div className="bottom-block"></div>
               <div className="bottom-title">Community Manager</div>

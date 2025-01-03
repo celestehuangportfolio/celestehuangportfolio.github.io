@@ -1,21 +1,25 @@
 .home{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    height: 90vh;
-    padding-top: 3vh;
-    min-height: 700px;
+    height: 82vh;
+    padding-top: 13vh;
+    min-height: 600px;
   }
-
+.home-celeste{
+  font-size:1.3rem;
+}
 .home-title{
     font-size:7rem;
     width: 100vw;
+    font-family:  "Libre Baskerville", serif;
 }
 
 .home-and{
+  position: absolute;
+  top: 100px;
   padding-left: 10px;
-  font-size:2rem;
+  font-size:3rem;
 }
 
 .home-buttons{
@@ -28,7 +32,7 @@
 
 .top{
   position: absolute; /* Positions the bottom div within the container */
-  top: 150px;
+  top: 40px;
   left: 0;
   display: flex;
   flex-direction: row;
@@ -36,13 +40,14 @@
 
 .bottom{
   position: absolute; /* Positions the bottom div within the container */
-  top: 250px;
+  top: 170px;
   left: 10px;
   display: flex;
   flex-direction: row;
 }
 
 .top-title{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,21 +63,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 80vw;
 }
 
 .bottom-block{
-  width: 10vw;
+  width: 20vw;
 }
 
 .title-container{
   position: relative; /* Makes the container the reference point for absolute positioning */
   width: 100vw;
-  height: 500px;
+  height: 400px;
 }
 
 
 @media (max-width: 1400px) {
+  .home-and{
+    position: relative;
+    top: 0px;
+  }
   .top-title{
     font-size: 4rem;
 }
@@ -84,12 +93,20 @@
 }
 
 @media (max-width: 768px) {
+  .home-and{
+    position: relative;
+    top: 0px;
+  }
   .top-title{
     font-size: 2rem;
 }
   
   .bottom-title{
     font-size: 2rem;
+  }
+
+  .home-title{
+    height: 300px;
   }
   
 }
