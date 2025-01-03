@@ -1,1 +1,0 @@
-.bigcard-container{flex-direction:row;text-align:center;width:90vw;max-width:1200px}.bigcard,.bigcard-container{display:flex;justify-content:center;align-items:center}.bigcard{width:90%}.bigcard-title{font-weight:700;width:100%;max-width:600px}.bigcard-description{width:100%}@media (max-width:768px){.bigcard-container{flex-direction:column}.big-container>p{min-width:300px}}
